@@ -1,8 +1,16 @@
 # Working instructions
 
+## Project
+
+Replace these placeholders when you adopt the template; delete lines that do not apply.
+
+- Purpose: [what this workspace is for and who the results serve]
+- Commands: [build, test, or lint commands, if any]
+- Layout: [project-specific folders beyond those in README.md]
+
 ## Start
 
-- Read `memory.md` if a task is in progress, then the relevant files in `rules/`, `context/`, `workflows/`, and `skills/`. Load only what the task needs.
+- Read `memory.md` if a task is in progress, then the relevant files in `rules/`, `context/`, `workflows/`, and `.agents/skills/`. Load only what the task needs.
 - Establish the requested result, scope, and a proportionate check for success. Ask when a missing answer materially affects correctness or authorization; otherwise make a reasonable assumption and state it.
 - Follow the user's current instructions and applicable tool policies. Flag conflicting project rules rather than silently choosing between them.
 
