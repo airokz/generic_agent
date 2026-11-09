@@ -1,0 +1,33 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Credentials and local agent settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets/
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Task materials and generated deliverables: opt in only after review
+/inputs/*
+!/inputs/README.md
+/output/*
+!/output/README.md
+/scratch/
+/tmp/
+
+# Common generated files
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
